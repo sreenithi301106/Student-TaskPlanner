@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Daily Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="myicon.jpg.jpg" type="image/jpeg" sizes="16x16">
+</head>
+<body>
+
+<div class="container">
+    <h1> My Daily Planner</h1>
+    <p>Make today count!</p>
+
+    <h3>Today's Checklist</h3>
+    <div id="tasks"></div>
+
+    <h3>Add Your Task</h3>
+    <input id="task" placeholder="Enter your task">
+    <input id="time" placeholder="Enter time">
+    <button onclick="addTask()">Add Task</button>
+
+    <h3>Daily Remarks </h3>
+    <textarea id="remarks" placeholder="Write your remarks..."></textarea>
+    <button onclick="saveRemarks()">Save Remarks</button>
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

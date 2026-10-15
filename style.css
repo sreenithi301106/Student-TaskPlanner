@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0efff;
+    padding: 25px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(205, 177, 245);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+h1 {
+    color: #070122;
+    text-align: center;
+}
+
+h1 + p {
+    text-align: center;
+    color: gray;
+}
+
+.task {
+    background: #f5f3ff;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 75px;
+}
+
+button {
+    background: #6554c0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4836a0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.task{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#f5f3ff;
+    padding:12px 15px;
+    margin:10px 0;
+    border-radius:10px;
+}
+.task input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin:0px;
+    flex-shrink:0;
+}
+.task b{
+    display:inline;
+}
